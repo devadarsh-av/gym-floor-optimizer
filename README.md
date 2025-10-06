@@ -1,16 +1,25 @@
-# React + Vite
+# 🏋️ Gym Floor Optimizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart web app that helps university students find the optimal gym floor for their workout routine.
 
-Currently, two official plugins are available:
+## Problem
+Our 7-floor university gym is hard to navigate, and students waste time searching for equipment across multiple floors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Solution
+This app analyzes your workout plan and recommends the best floor(s) to minimize travel time and maximize efficiency.
 
-## React Compiler
+## Features
+- 6 pre-built workout templates (Push, Pull, Legs, etc.)
+- Custom workout builder
+- Smart floor analysis algorithm
+- Beautiful, mobile-responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React
+- Tailwind CSS
+- Lucide Icons
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+```bash
+npm install
+npm run dev
